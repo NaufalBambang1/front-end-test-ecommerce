@@ -1,13 +1,121 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.top-custom {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  padding: 0.3rem;
+  position: relative;
+}
+.top-header {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.295);
+}
+.left-side-header {
+}
+.left-side-header a {
+  text-decoration: none;
+  color: rgb(212, 3, 3);
+}
+
+.right-side-header {
+  display: flex;
+  gap: 1rem;
+}
+.right-side-header a {
+  text-decoration: none;
+  color: black;
+}
+.right-side-header a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.search-bar {
+  width: 40%;
+}
+.search-control {
+  border: 2px solid rgb(212, 3, 3);
+  width: 100%;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  margin-left: 1rem;
+  border-right: none;
+  border-radius: 2px;
+}
+.btn-search {
+  border: 1px solid rgb(212, 3, 3);
+  background-color: rgb(212, 3, 3);
+  color: white;
+  border-radius: 2px;
+  width: 10%;
+}
+
+.stack-custom {
+  display: flex;
+  justify-content: center;
+}
+.cart-custom {
+  font-size: 29px;
+  color: gray;
+  cursor: pointer;
+  padding-left: 1rem;
+}
+.btn-custom {
+  border: 2px solid rgb(212, 3, 3);
+  background-color: rgb(212, 3, 3);
+  color: white;
+  width: 80%;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.navbar {
+  position: fixed;
+}
+.border-bottom {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.295);
+}
+
+.box-kategori {
+  border: 1px solid rgb(212, 3, 3);
+  background-color: rgb(212, 3, 3);
+  color: white;
+  display: flex;
+  padding: 0.5rem;
+}
+.box-detail {
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  border: 1px solid white;
+  padding: 0.5rem;
+  gap: 20rem;
+  border-bottom: 2px solid gray;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+.box-detail:hover {
+  border-bottom: 2px solid red;
+  color: red;
+}
+.box-detail a:hover {
+  color: red;
+}
+
+.carousel-item {
+  height: 30rem;
+}
+
+.kategori-item {
+  border: 1px solid gray;
 }
