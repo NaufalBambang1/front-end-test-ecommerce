@@ -9,13 +9,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+.container-custom {
+  max-width: 1500px;
+  width: 100%;
+  margin: auto;
+}
 .top-custom {
   list-style: none;
   display: flex;
   justify-content: center;
   font-size: 14px;
   padding: 0.3rem;
-  position: relative;
 }
 .top-header {
   border-bottom: 1px solid rgba(128, 128, 128, 0.295);
@@ -78,11 +82,12 @@ code {
   padding: 0.5rem;
   border-radius: 5px;
 }
-.navbar {
-  position: fixed;
-}
+
+/* Kategori */
+
 .border-bottom {
   border-bottom: 1px solid rgba(128, 128, 128, 0.295);
+  box-shadow: 5px 5px 10px #bebebe;
 }
 
 .box-kategori {
@@ -91,6 +96,7 @@ code {
   color: white;
   display: flex;
   padding: 0.5rem;
+  font-weight: 600;
 }
 .box-detail {
   display: flex;
@@ -104,6 +110,7 @@ code {
   text-decoration: none;
   color: black;
 }
+
 .box-detail:hover {
   border-bottom: 2px solid red;
   color: red;
@@ -118,4 +125,215 @@ code {
 
 .kategori-item {
   border: 1px solid gray;
+}
+.card-custom {
+  padding: 2rem;
+  height: 1px;
+}
+.rfq {
+  margin-left: -1rem;
+  padding-top: 0.3rem;
+}
+.rfq-custom {
+  max-width: 100px;
+}
+.content-custom {
+  transform: translateY(4rem);
+}
+.spacing-text-title {
+  gap: 6rem;
+}
+.spacing-text {
+  gap: 5rem;
+}
+.btn-pelajari {
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-top: 4rem;
+  padding: 0.4rem;
+}
+.permintaan-custom {
+  margin-right: 16.5rem;
+  font-weight: 700;
+}
+.link-permintaan {
+  margin-left: 16.5rem;
+  text-decoration: none;
+  color: red;
+  font-size: 14px;
+}
+.link-permintaan:hover {
+  color: red;
+}
+.font-item {
+  font-size: 13px;
+}
+.left-date {
+  margin-right: 1rem;
+}
+.left-date h6 {
+  gap: 0.5rem;
+}
+.left-date p {
+  color: #0ab54e;
+  font-weight: 600;
+}
+.border-between {
+  border-right: 1px solid gray;
+  height: 45px;
+}
+.right-date {
+  margin-left: 1rem;
+}
+.right-date p {
+  color: #dc1f26;
+  font-weight: 600;
+}
+.position {
+  height: fit-content;
+}
+
+/* slick */
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+.product {
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.product-title {
+  font-weight: 500;
+}
+.product-price {
+  font-weight: 500;
+  color: #f57224;
+}
+.product-seller {
+  font-size: small;
+}
+.product-status {
+  color: rgb(37, 64, 143);
+  font-weight: 500;
+}
+.product-location span {
+  color: red;
+}
+/* Widget */
+.widget-box {
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: -2px -2px 6px #bebebe, 2px 2px 6px #bebebe;
+}
+.widget-item {
+  padding: 2rem;
+}
+.widget-custom {
+  cursor: pointer;
+}
+.widget-custom:hover {
+  box-shadow: -2px -2px 6px #bebebe, 2px 2px 6px #bebebe;
+}
+.product-seller-widget {
+  font-size: 12px;
+}
+.product-location-widget {
+  font-size: 15px;
+}
+.border-title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid gray;
+}
+.product-terbaru {
+  margin-right: 33rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+.btn-product {
+  margin-left: 33rem;
+  border: 2px solid red;
+  background-color: white;
+  color: red;
+  font-weight: 600;
+  padding: 0.5rem;
+}
+.btn-product:hover {
+  background-color: red;
+  color: white;
+}
+/* Footer */
+.footer {
+  background-color: #404042;
+  min-height: 64vh;
+}
+.footer-col {
+  margin-top: 2.1rem;
+}
+.footer-col h4 {
+  font-size: 15px;
+  color: white;
+  margin-bottom: 1rem;
+}
+.footer-col p {
+  font-size: 15px;
+  color: #dedfe0;
+}
+.footer-col a {
+  display: flex;
+  text-decoration: none;
+  color: #dedfe0;
+}
+.footer-col a:hover {
+  display: flex;
+  text-decoration: none;
+  color: white;
+}
+.footer-image {
+  max-width: 180px;
+}
+.ind {
+  margin-right: 2rem;
+  text-decoration: none;
+  color: #dedfe0;
+  font-size: 13px;
+}
+.ind:hover {
+  color: white;
+}
+
+.language-custom a {
+  text-decoration: none;
+  margin-right: 1rem;
+  border-left: 1px solid #dedfe0;
+  color: #dedfe0;
+  padding-left: 1rem;
+  font-size: 13px;
+}
+.language-custom a:hover {
+  color: white;
+}
+.footer-payment p {
+  color: #dedfe0;
+  margin-top: 1rem;
+}
+.footer-payment img {
+  max-width: 140px;
+  max-height: 30px;
+  transform: translateY(0.7rem);
+}
+.footer-payment a {
+  margin-top: 0.9rem;
+  margin-left: 5px;
+  text-decoration: none;
+  color: #0d6efd;
+}
+.footer-cr p {
+  color: white;
 }
